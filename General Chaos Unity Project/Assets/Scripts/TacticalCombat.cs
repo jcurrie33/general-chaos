@@ -889,7 +889,10 @@ public class TacticalCombat : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+    void Update () {
+        
+        UpdateUI();
+
 		if (isLevelComplete || isLevelFailed || isMenuOpen || isCountdownActive) {
 			return;
 		}
@@ -942,9 +945,6 @@ public class TacticalCombat : MonoBehaviour {
 			RunCloseCombatUpdate ();
 		}
 		UnityEngine.Profiling.Profiler.EndSample ();
-
-
-		UpdateUI ();
 
 
 		// Sort background to bottom
