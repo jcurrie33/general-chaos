@@ -274,11 +274,20 @@ public class TacticalCombat : MonoBehaviour {
 	// UI elements stored in Start() for later access
 	public GameObject canvas;
 
-	private GameObject medpack1;
-	private GameObject medpack2;
-	private GameObject medpack3;
     private GameObject buttonPause;
     private GameObject buttonUnpause;
+    private GameObject buttonMedkit;
+    private GameObject buttonMedkitSelected;
+    private GameObject medkitCounter0;
+    private GameObject medkitCounter1;
+    private GameObject medkitCounter2;
+    private GameObject medkitCounter3;
+    private GameObject medkitCounter4;
+    private GameObject medkitCounter5;
+    private GameObject medkitCounter6;
+    private GameObject medkitCounter7;
+    private GameObject medkitCounter8;
+    private GameObject medkitCounter9;
 	private GameObject buttonMinimize;
 	private GameObject enableDebugToggle;
 	private GameObject debugPauseButton;
@@ -804,11 +813,20 @@ public class TacticalCombat : MonoBehaviour {
 		}
 
 		this.inventory = new Inventory ();
-		medpack1 = GameObject.Find ("medpack-1");
-		medpack2 = GameObject.Find ("medpack-2");
-		medpack3 = GameObject.Find ("medpack-3");
         buttonPause = GameObject.Find ("ui-pixel-overlay-btn-pause");
         buttonUnpause = GameObject.Find("ui-pixel-overlay-btn-unpause");
+        buttonMedkit = GameObject.Find("ui-pixel-overlay-btn-medkit");
+        buttonMedkitSelected = GameObject.Find("ui-pixel-overlay-btn-medkit-selected");
+        medkitCounter0 = GameObject.Find("ui-pixel-overlay-medkit-counter-0");
+        medkitCounter1 = GameObject.Find("ui-pixel-overlay-medkit-counter-1");
+        medkitCounter2 = GameObject.Find("ui-pixel-overlay-medkit-counter-2");
+        medkitCounter3 = GameObject.Find("ui-pixel-overlay-medkit-counter-3");
+        medkitCounter4 = GameObject.Find("ui-pixel-overlay-medkit-counter-4");
+        medkitCounter5 = GameObject.Find("ui-pixel-overlay-medkit-counter-5");
+        medkitCounter6 = GameObject.Find("ui-pixel-overlay-medkit-counter-6");
+        medkitCounter7 = GameObject.Find("ui-pixel-overlay-medkit-counter-7");
+        medkitCounter8 = GameObject.Find("ui-pixel-overlay-medkit-counter-8");
+        medkitCounter9 = GameObject.Find("ui-pixel-overlay-medkit-counter-9");
         buttonUnpause.SetActive(false);
 		buttonMinimize = GameObject.Find ("ui-button-minimize");
 		enableDebugToggle = GameObject.Find ("EnableDebugToggle");
@@ -2261,11 +2279,9 @@ public class TacticalCombat : MonoBehaviour {
 
 	public void UpdateUI () {
 
-		if (isCloseCombatActive) {
-			medpack1.SetActive (false);
-			medpack2.SetActive (false);
-			medpack3.SetActive (false);
+        UpdateMedpackUI();
 
+		if (isCloseCombatActive) {
 			enableDebugToggle.SetActive (false);
 
 			buttonMinimize.SetActive (false);
@@ -2276,7 +2292,6 @@ public class TacticalCombat : MonoBehaviour {
 			debugUnlockButton.SetActive (false);
 		} else {
 			if (isUIExpanded) {
-				UpdateMedpackUI ();
 
 				enableDebugToggle.SetActive (true);
 
@@ -2287,9 +2302,6 @@ public class TacticalCombat : MonoBehaviour {
 				debugZoomOutButton.SetActive (true);
 				debugUnlockButton.SetActive (true);
 			} else {
-				medpack1.SetActive (false);
-				medpack2.SetActive (false);
-				medpack3.SetActive (false);
 
 				enableDebugToggle.SetActive (false);
 
@@ -2306,26 +2318,62 @@ public class TacticalCombat : MonoBehaviour {
 	public void UpdateMedpackUI () {
 		Utilities.DebugLog ("UpdateMedpackUI ()");
 
-		if (numMedpacks == 3) {
-			medpack1.SetActive (true);
-			medpack2.SetActive (true);
-			medpack3.SetActive (true);
-		}
-		if (numMedpacks == 2) {
-			medpack1.SetActive (true);
-			medpack2.SetActive (true);
-			medpack3.SetActive (false);
-		}
-		if (numMedpacks == 1) {
-			medpack1.SetActive (true);
-			medpack2.SetActive (false);
-			medpack3.SetActive (false);
-		}
-		if (numMedpacks == 0 || isCloseCombatActive) {
-			medpack1.SetActive (false);
-			medpack2.SetActive (false);
-			medpack3.SetActive (false);
-		}
+        buttonMedkit.SetActive(false);
+        buttonMedkitSelected.SetActive(false);
+        medkitCounter0.SetActive(false);
+        medkitCounter1.SetActive(false);
+        medkitCounter2.SetActive(false);
+        medkitCounter3.SetActive(false);
+        medkitCounter4.SetActive(false);
+        medkitCounter5.SetActive(false);
+        medkitCounter6.SetActive(false);
+        medkitCounter7.SetActive(false);
+        medkitCounter8.SetActive(false);
+        medkitCounter9.SetActive(false);
+
+        if (!isCloseCombatActive)
+        {
+            if (isMedpackSelected)
+            {
+                buttonMedkitSelected.SetActive(true);
+            } else {
+                buttonMedkit.SetActive(true);
+            }
+
+            switch (numMedpacks)
+            {
+                case 0:
+                    medkitCounter0.SetActive(true);
+                    break;
+                case 1:
+                    medkitCounter1.SetActive(true);
+                    break;
+                case 2:
+                    medkitCounter2.SetActive(true);
+                    break;
+                case 3:
+                    medkitCounter3.SetActive(true);
+                    break;
+                case 4:
+                    medkitCounter4.SetActive(true);
+                    break;
+                case 5:
+                    medkitCounter5.SetActive(true);
+                    break;
+                case 6:
+                    medkitCounter6.SetActive(true);
+                    break;
+                case 7:
+                    medkitCounter7.SetActive(true);
+                    break;
+                case 8:
+                    medkitCounter8.SetActive(true);
+                    break;
+                case 9:
+                    medkitCounter9.SetActive(true);
+                    break;
+            }
+        }
 	}
 
 	public void UpdateHeartsUI () {
@@ -3247,10 +3295,13 @@ public class TacticalCombat : MonoBehaviour {
 		}
 	}
 
-	public void OnMedpackButtonTapped () {
-		Utilities.DebugLog ("OnMedpackButtonTapped ()");
-		isMedpackSelected = true;
-		PlayUIAudioClip ();
+	public void Button_OverlayMedkit_Tapped () {
+        if (numMedpacks > 0)
+        {
+            Utilities.DebugLog("Button_OverlayMedkit_Tapped ()");
+            isMedpackSelected = !isMedpackSelected;
+            PlayUIAudioClip();
+        }
 	}
 
 	public void OnExpandButtonTapped () {
