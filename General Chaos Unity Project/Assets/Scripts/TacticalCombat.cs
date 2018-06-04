@@ -277,7 +277,8 @@ public class TacticalCombat : MonoBehaviour {
 	private GameObject medpack1;
 	private GameObject medpack2;
 	private GameObject medpack3;
-	private GameObject buttonExpand;
+    private GameObject buttonPause;
+    private GameObject buttonUnpause;
 	private GameObject buttonMinimize;
 	private GameObject enableDebugToggle;
 	private GameObject debugPauseButton;
@@ -806,7 +807,9 @@ public class TacticalCombat : MonoBehaviour {
 		medpack1 = GameObject.Find ("medpack-1");
 		medpack2 = GameObject.Find ("medpack-2");
 		medpack3 = GameObject.Find ("medpack-3");
-		buttonExpand = GameObject.Find ("ui-button-expand");
+        buttonPause = GameObject.Find ("ui-pixel-overlay-btn-pause");
+        buttonUnpause = GameObject.Find("ui-pixel-overlay-btn-unpause");
+        buttonUnpause.SetActive(false);
 		buttonMinimize = GameObject.Find ("ui-button-minimize");
 		enableDebugToggle = GameObject.Find ("EnableDebugToggle");
 		debugPauseButton = GameObject.Find ("DebugPauseButton");
@@ -1090,7 +1093,7 @@ public class TacticalCombat : MonoBehaviour {
 
 		List<Unit> selectableUnitsList = new List<Unit> ();
 		foreach (Unit unit in unitsList) {
-			if (IsPositionOverUnit (touchPosition, unit) && (unit.isPlayerControlled || this.isPaused)) {
+			if (IsPositionOverUnit (touchPosition, unit) && unit.isPlayerControlled) {
 				if (isMedpackSelected) {
 					unit.ApplyMedpack ();
 				} else if (unit.isSelected) {
@@ -1152,14 +1155,14 @@ public class TacticalCombat : MonoBehaviour {
 			}
 		}
 
-		if (this.isPaused) {
-			// TODO: Move selected unit to position
-			foreach (Unit unit in unitsList) {
-				if (unit.isSelected) {
-					unit.gameObject.transform.position = touchPosition;
-				}
-			}
-		}
+		//if (this.isPaused) {
+		//	// TODO: Move selected unit to position
+		//	foreach (Unit unit in unitsList) {
+		//		if (unit.isSelected) {
+		//			unit.gameObject.transform.position = touchPosition;
+		//		}
+		//	}
+		//}
 	}
 
 	public void OnButtonUp (Vector3 touchPosition) {
@@ -1170,7 +1173,7 @@ public class TacticalCombat : MonoBehaviour {
 				foreach (Unit unit in unitsList) {
 					if (IsPositionOverUnit (touchPosition, unit)) {
 						if (this.isPaused) {
-							DeselectAllUnits ();
+							//DeselectAllUnits ();
 						} else {
 							if (unit.isPlayerControlled) {
 								if (unit.currentState == Unit.UnitState.UNIT_STATE_DEAD || unit.currentState == Unit.UnitState.UNIT_STATE_DISABLED || unit.currentState == Unit.UnitState.UNIT_STATE_PAUSED) {
@@ -1190,9 +1193,9 @@ public class TacticalCombat : MonoBehaviour {
 			}
 		}
 
-		if (this.isPaused && IsHeldTapIgnoringAlreadyRegistered ()) {
-			cameraTargetPosition = touchPosition;
-		}
+		//if (this.isPaused && IsHeldTapIgnoringAlreadyRegistered ()) {
+		//	cameraTargetPosition = touchPosition;
+		//}
 		
 		timeAtMouseDown = 0;
 	}
@@ -2265,7 +2268,6 @@ public class TacticalCombat : MonoBehaviour {
 
 			enableDebugToggle.SetActive (false);
 
-			buttonExpand.SetActive (false);
 			buttonMinimize.SetActive (false);
 
 			debugPauseButton.SetActive (false);
@@ -2278,7 +2280,6 @@ public class TacticalCombat : MonoBehaviour {
 
 				enableDebugToggle.SetActive (true);
 
-				buttonExpand.SetActive (false);
 				buttonMinimize.SetActive (true);
 
 				debugPauseButton.SetActive (true);
@@ -2292,7 +2293,6 @@ public class TacticalCombat : MonoBehaviour {
 
 				enableDebugToggle.SetActive (false);
 
-				buttonExpand.SetActive (true);
 				buttonMinimize.SetActive (false);
 
 				debugPauseButton.SetActive (false);
@@ -3441,6 +3441,27 @@ public class TacticalCombat : MonoBehaviour {
 		dollarsCurrencyTextScript.text = this.doubleDollars.ToString ("N0");
 		diamondsCurrencyTextScript.text = this.diamonds.ToString ("N0");
 	}
+
+    public void Button_OverlayPause_Tapped()
+    {
+        if (isPaused)
+        {
+            buttonPause.SetActive(true);
+            buttonUnpause.SetActive(false);
+            UnpauseTacticalCombat();
+        }
+        else
+        {
+            buttonPause.SetActive(false);
+            buttonUnpause.SetActive(true);
+            this.wasPausedFromDebug = true;
+            PauseTacticalCombat();
+            foreach (Unit unit in unitsList)
+            {
+                unit.StopMovingOrAttacking();
+            }
+        }
+    }
 
 	public void DebugPauseButton_OnClick () {
 		if (isPaused) {
