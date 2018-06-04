@@ -1,0 +1,1281 @@
+fileFormatVersion: 2
+guid: a66f872f2667f45faa5ee1c8dd588ed3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MG-downright-fall_0
+    21300002: MG-downright-fall_1
+    21300004: MG-downright-fall_2
+    21300006: MG-downright-fall_3
+    21300008: MG-downright-fall_4
+    21300010: MG-downright-fall_5
+    21300012: MG-downright-fall_6
+    21300014: MG-downright-fall_7
+    21300016: MG-downright-fall_8
+    21300018: MG-downright-fall_9
+    21300020: MG-downright-fall_10
+    21300022: MG-downright-idle_0
+    21300024: MG-downright-run_0
+    21300026: MG-downright-run_1
+    21300028: MG-downright-run_2
+    21300030: MG-downright-run_3
+    21300032: MG-downright-run_4
+    21300034: MG-downright-run_5
+    21300036: MG-downright-run_6
+    21300038: MG-downright-run_7
+    21300040: MG-downright-run_8
+    21300042: MG-downright-run_9
+    21300044: MG-downright-run_10
+    21300046: MG-downright-run_11
+    21300048: MG-downright-run_12
+    21300050: MG-downright-run_13
+    21300052: MG-downright-run_14
+    21300054: MG-downright-run_15
+    21300056: MG-downright-run_16
+    21300058: MG-downright-run_17
+    21300060: MG-downright-run_18
+    21300062: MG-downright-run_19
+    21300064: MG-downright-run_20
+    21300066: MG-upright-idle_0
+    21300068: MG-upright-run_0
+    21300070: MG-upright-run_1
+    21300072: MG-upright-run_2
+    21300074: MG-upright-run_3
+    21300076: MG-upright-run_4
+    21300078: MG-upright-run_5
+    21300080: MG-upright-run_6
+    21300082: MG-upright-run_7
+    21300084: MG-upright-run_8
+    21300086: MG-upright-run_9
+    21300088: MG-upright-run_10
+    21300090: MG-upright-run_11
+    21300092: MG-upright-run_12
+    21300094: MG-upright-run_13
+    21300096: MG-upright-run_14
+    21300098: MG-upright-run_15
+    21300100: MG-upright-run_16
+    21300102: MG-upright-run_17
+    21300104: MG-upright-run_18
+    21300106: MG-upright-run_19
+    21300108: MG-upright-run_20
+    21300110: MG-downright-idle_1
+    21300112: MG-upright-idle_1
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MG-downright-fall_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 404
+        width: 39
+        height: 64
+      alignment: 9
+      pivot: {x: -0.20512821, y: 0.0296875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 770
+        width: 53
+        height: 71
+      alignment: 9
+      pivot: {x: 0.13207547, y: 0.0859155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 681
+        width: 58
+        height: 63
+      alignment: 9
+      pivot: {x: 0.27586207, y: 0.0365079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 911
+        width: 61
+        height: 65
+      alignment: 9
+      pivot: {x: 0.40983605, y: 0.0846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 961
+        width: 62
+        height: 61
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.0180328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 964
+        width: 70
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 832
+        width: 68
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.1816327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 864
+        width: 73
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5890411, y: 0.3790698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 909
+        width: 64
+        height: 30
+      alignment: 9
+      pivot: {x: 0.671875, y: 0.4833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 311
+        width: 64
+        height: 27
+      alignment: 9
+      pivot: {x: 0.71875, y: 0.692593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-fall_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 65
+        height: 27
+      alignment: 9
+      pivot: {x: 0.72307694, y: 0.72963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-idle_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 340
+        width: 37
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-idle_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 340
+        width: 37
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 164
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.1079365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.1079365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 461
+        width: 42
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44047618, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 360
+        width: 45
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0920635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 423
+        width: 46
+        height: 64
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 46
+        height: 61
+      alignment: 9
+      pivot: {x: 0.51086956, y: 0.0754098}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 589
+        width: 47
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 525
+        width: 47
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 45
+        height: 63
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.0920635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 191
+        width: 41
+        height: 64
+      alignment: 9
+      pivot: {x: 0.42682928, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 81
+        width: 41
+        height: 63
+      alignment: 9
+      pivot: {x: 0.42682928, y: 0.1079365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 16
+        width: 39
+        height: 64
+      alignment: 9
+      pivot: {x: 0.3974359, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 492
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45348838, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 59
+        width: 41
+        height: 64
+      alignment: 9
+      pivot: {x: 0.42682928, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 125
+        width: 41
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4512195, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_15
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 17
+        width: 41
+        height: 62
+      alignment: 9
+      pivot: {x: 0.47560975, y: 0.083871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 460
+        width: 42
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44047618, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 470
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45348838, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 489
+        width: 46
+        height: 64
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 294
+        width: 44
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-downright-run_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 164
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.1079365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-idle_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 843
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-idle_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 843
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 536
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.51960784, y: 0.1072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 745
+        width: 51
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 808
+        width: 50
+        height: 71
+      alignment: 9
+      pivot: {x: 0.49, y: 0.1070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 699
+        width: 55
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.0927536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 952
+        width: 55
+        height: 70
+      alignment: 9
+      pivot: {x: 0.53636366, y: 0.0857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 817
+        width: 54
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5462963, y: 0.0705882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 739
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5462963, y: 0.0776119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 771
+        width: 52
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5673077, y: 0.0615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 884
+        width: 54
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5462963, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 952
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.1142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 629
+        width: 47
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5425532, y: 0.1142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 558
+        width: 44
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48863637, y: 0.1217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 555
+        width: 52
+        height: 71
+      alignment: 9
+      pivot: {x: 0.47115386, y: 0.1070422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 655
+        width: 46
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5326087, y: 0.1142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 607
+        width: 49
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 700
+        width: 50
+        height: 69
+      alignment: 9
+      pivot: {x: 0.45, y: 0.0927536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 598
+        width: 50
+        height: 70
+      alignment: 9
+      pivot: {x: 0.45, y: 0.0857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 627
+        width: 53
+        height: 70
+      alignment: 9
+      pivot: {x: 0.44339624, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 527
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.48039216, y: 0.0927536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 881
+        width: 53
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.1072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MG-upright-run_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 670
+        width: 51
+        height: 69
+      alignment: 9
+      pivot: {x: 0.51960784, y: 0.1072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

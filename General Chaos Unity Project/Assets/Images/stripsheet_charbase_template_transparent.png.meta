@@ -1,0 +1,1740 @@
+fileFormatVersion: 2
+guid: 4c4b84570a689430fbcf3e1b308d09b8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: unit_placeholder_crawl_0
+    21300002: unit_placeholder_crawl_1
+    21300004: unit_placeholder_crawl_2
+    21300006: unit_placeholder_crawl_3
+    21300008: unit_placeholder_crawl_4
+    21300010: unit_placeholder_crawl_5
+    21300012: unit_placeholder_jump_0
+    21300014: unit_placeholder_jump_1
+    21300016: unit_placeholder_jump_2
+    21300018: unit_placeholder_jump_3
+    21300020: unit_placeholder_sneak_0
+    21300022: unit_placeholder_sneak_1
+    21300024: unit_placeholder_sneak_2
+    21300026: unit_placeholder_sneak_3
+    21300028: unit_placeholder_sneak_4
+    21300030: unit_placeholder_sneak_5
+    21300032: stripsheet_charbase_template_transparent_16
+    21300034: stripsheet_charbase_template_transparent_17
+    21300036: stripsheet_charbase_template_transparent_18
+    21300038: unit_placeholder_idle_0
+    21300040: unit_placeholder_idle_1
+    21300042: unit_placeholder_attack_pistol_0
+    21300044: unit_placeholder_attack_pistol_1
+    21300046: unit_placeholder_attack_rifle_0
+    21300048: unit_placeholder_attack_rifle_1
+    21300050: unit_placeholder_run_0
+    21300052: unit_placeholder_run_1
+    21300054: unit_placeholder_run_2
+    21300056: unit_placeholder_run_3
+    21300058: unit_placeholder_run_4
+    21300060: unit_placeholder_run_5
+    21300062: stripsheet_charbase_template_transparent_31
+    21300064: stripsheet_charbase_template_transparent_32
+    21300066: stripsheet_charbase_template_transparent_33
+    21300068: stripsheet_charbase_template_transparent_34
+    21300070: stripsheet_charbase_template_transparent_35
+    21300072: stripsheet_charbase_template_transparent_36
+    21300074: stripsheet_charbase_template_transparent_37
+    21300076: stripsheet_charbase_template_transparent_38
+    21300078: stripsheet_charbase_template_transparent_39
+    21300080: stripsheet_charbase_template_transparent_40
+    21300082: stripsheet_charbase_template_transparent_41
+    21300084: stripsheet_charbase_template_transparent_42
+    21300086: stripsheet_charbase_template_transparent_43
+    21300088: stripsheet_charbase_template_transparent_44
+    21300090: stripsheet_charbase_template_transparent_45
+    21300092: stripsheet_charbase_template_transparent_46
+    21300094: stripsheet_charbase_template_transparent_47
+    21300096: stripsheet_charbase_template_transparent_48
+    21300098: stripsheet_charbase_template_transparent_49
+    21300100: stripsheet_charbase_template_transparent_50
+    21300102: stripsheet_charbase_template_transparent_51
+    21300104: stripsheet_charbase_template_transparent_52
+    21300106: stripsheet_charbase_template_transparent_53
+    21300108: stripsheet_charbase_template_transparent_54
+    21300110: unit_placeholder_runattack_rifle_0
+    21300112: unit_placeholder_runattack_rifle_1
+    21300114: unit_placeholder_runattack_rifle_2
+    21300116: unit_placeholder_runattack_rifle_3
+    21300118: unit_placeholder_runattack_rifle_4
+    21300120: unit_placeholder_runattack_rifle_5
+    21300122: stripsheet_charbase_template_transparent_61
+    21300124: stripsheet_charbase_template_transparent_62
+    21300126: stripsheet_charbase_template_transparent_63
+    21300128: stripsheet_charbase_template_transparent_64
+    21300130: stripsheet_charbase_template_transparent_65
+    21300132: stripsheet_charbase_template_transparent_66
+    21300134: stripsheet_charbase_template_transparent_67
+    21300136: stripsheet_charbase_template_transparent_68
+    21300138: stripsheet_charbase_template_transparent_69
+    21300140: stripsheet_charbase_template_transparent_70
+    21300142: stripsheet_charbase_template_transparent_71
+    21300144: stripsheet_charbase_template_transparent_72
+    21300146: stripsheet_charbase_template_transparent_73
+    21300148: stripsheet_charbase_template_transparent_74
+    21300150: unit_placeholder_kick_0
+    21300152: unit_placeholder_kick_1
+    21300154: unit_placeholder_kick_2
+    21300156: unit_placeholder_kick_3
+    21300158: unit_placeholder_kick_4
+    21300160: unit_placeholder_kick_5
+    21300162: unit_placeholder_attack_throw_0
+    21300164: unit_placeholder_attack_throw_1
+    21300166: unit_placeholder_attack_throw_2
+    21300168: unit_placeholder_attack_throw_3
+    21300170: unit_placeholder_attack_throw_4
+    21300172: unit_placeholder_attack_throw_5
+    21300174: unit_placeholder_cut_0
+    21300176: unit_placeholder_cut_1
+    21300178: unit_placeholder_cut_2
+    21300180: unit_placeholder_cut_3
+    21300182: unit_placeholder_cut_4
+    21300184: unit_placeholder_cut_5
+    21300186: unit_placeholder_thrust_0
+    21300188: unit_placeholder_thrust_1
+    21300190: unit_placeholder_thrust_2
+    21300192: unit_placeholder_thrust_3
+    21300194: unit_placeholder_thrust_4
+    21300196: unit_placeholder_thrust_5
+    21300198: unit_placeholder_bash_0
+    21300200: unit_placeholder_bash_1
+    21300202: unit_placeholder_bash_2
+    21300204: unit_placeholder_bash_3
+    21300206: unit_placeholder_bash_4
+    21300208: unit_placeholder_bash_5
+    21300210: unit_placeholder_slash_0
+    21300212: unit_placeholder_slash_1
+    21300214: unit_placeholder_slash_2
+    21300216: unit_placeholder_slash_3
+    21300218: unit_placeholder_slash_4
+    21300220: unit_placeholder_slash_5
+    21300222: unit_placeholder_slash_6
+    21300224: unit_placeholder_smash_0
+    21300226: unit_placeholder_smash_1
+    21300228: unit_placeholder_smash_2
+    21300230: unit_placeholder_smash_3
+    21300232: unit_placeholder_smash_4
+    21300234: unit_placeholder_smash_5
+    21300236: unit_placeholder_smash_6
+    21300238: stripsheet_charbase_template_transparent_119
+    21300240: stripsheet_charbase_template_transparent_120
+    21300242: stripsheet_charbase_template_transparent_121
+    21300244: stripsheet_charbase_template_transparent_122
+    21300246: stripsheet_charbase_template_transparent_123
+    21300248: stripsheet_charbase_template_transparent_124
+    21300250: stripsheet_charbase_template_transparent_125
+    21300252: stripsheet_charbase_template_transparent_126
+    21300254: stripsheet_charbase_template_transparent_127
+    21300256: stripsheet_charbase_template_transparent_128
+    21300258: stripsheet_charbase_template_transparent_129
+    21300260: stripsheet_charbase_template_transparent_130
+    21300262: stripsheet_charbase_template_transparent_131
+    21300264: stripsheet_charbase_template_transparent_132
+    21300266: stripsheet_charbase_template_transparent_133
+    21300268: stripsheet_charbase_template_transparent_134
+    21300270: stripsheet_charbase_template_transparent_135
+    21300272: stripsheet_charbase_template_transparent_136
+    21300274: stripsheet_charbase_template_transparent_137
+    21300276: unit_placeholder_fall_0
+    21300278: unit_placeholder_fall_1
+    21300280: unit_placeholder_fall_2
+    21300282: unit_placeholder_fall_3
+    21300284: unit_placeholder_fall_4
+    21300286: unit_placeholder_fall_5
+    21300288: unit_placeholder_fall_6
+    21300290: unit_placeholder_fall_7
+    21300292: unit_placeholder_superpunch_0
+    21300294: unit_placeholder_superpunch_1
+    21300296: unit_placeholder_superpunch_2
+    21300298: unit_placeholder_superpunch_3
+    21300300: unit_placeholder_superpunch_4
+    21300302: unit_placeholder_superpunch_5
+    21300304: unit_placeholder_superpunch_6
+    21300306: unit_placeholder_superpunch_7
+    21300308: unit_placeholder_superpunch_8
+    21300310: unit_placeholder_superpunch_9
+    21300312: stripsheet_charbase_template_transparent_156
+    21300314: stripsheet_charbase_template_transparent_157
+    21300316: stripsheet_charbase_template_transparent_158
+    21300318: stripsheet_charbase_template_transparent_159
+    21300320: stripsheet_charbase_template_transparent_160
+    21300322: stripsheet_charbase_template_transparent_161
+    21300324: stripsheet_charbase_template_transparent_162
+    21300326: stripsheet_charbase_template_transparent_163
+    21300328: stripsheet_charbase_template_transparent_164
+    21300330: stripsheet_charbase_template_transparent_165
+    21300332: stripsheet_charbase_template_transparent_166
+    21300334: stripsheet_charbase_template_transparent_167
+    21300336: stripsheet_charbase_template_transparent_168
+    21300338: stripsheet_charbase_template_transparent_169
+    21300340: stripsheet_charbase_template_transparent_170
+    21300342: stripsheet_charbase_template_transparent_171
+    21300344: stripsheet_charbase_template_transparent_172
+    21300346: closecombat_cloud_0
+    21300348: closecombat_cloud_1
+    21300350: closecombat_cloud_2
+    21300352: closecombat_cloud_3
+    21300354: closecombat_cloud_4
+    21300356: target_x_0
+    21300358: target_x_1
+    21300360: target_x_2
+    21300362: obstacle_rock
+    21300364: obstacle_dirtmound
+    21300366: obstacle_oildrum
+    21300368: obstacle_crate
+    21300370: obstacle_fallentree
+    21300372: obstacle_shortwall
+    21300374: obstacle_tires
+    21300376: obstacle_sandbags
+    21300378: obstacle_tallwall
+    21300380: medpack
+    21300382: projectile_bazooka
+    21300384: projectile_grenade
+    21300386: projectile_bullet
+    21300388: obstacle_barrels_1
+    21300390: obstacle_barrels_2
+    21300392: obstacle_barrels_3
+    21300394: obstacle_barrels_4
+    21300396: obstacle_barrels_5
+    21300398: obstacle_barrels_6
+    21300400: obstacle_barrels_7
+    21300402: obstacle_tires_1
+    21300404: obstacle_tires_2
+    21300406: obstacle_tires_3
+    21300408: obstacle_tires_4
+    21300410: obstacle_tires_5
+    21300412: obstacle_tires_6
+    21300414: obstacle_sandbags_1
+    21300416: obstacle_sandbags_2
+    21300418: obstacle_sandbags_3
+    21300420: obstacle_sandbags_4
+    21300422: obstacle_sandbags_5
+    21300424: obstacle_sandbags_6
+    21300426: obstacle_barrels_1_destroyed
+    21300428: obstacle_barrels_2_destroyed
+    21300430: obstacle_barrels_3_destroyed
+    21300432: obstacle_sandbags_2_destroyed
+    21300434: obstacle_sandbags_4_destroyed
+    21300436: obstacle_sandbags_1_destroyed
+    21300438: obstacle_barrels_7_destroyed
+    21300440: obstacle_barrels_6_destroyed
+    21300442: obstacle_barrels_4_destroyed
+    21300444: obstacle_wall_1
+    21300446: obstacle_wall_2
+    21300448: obstacle_wall_3
+    21300450: obstacle_wall_4
+    21300452: obstacle_wall_5
+    21300454: obstacle_wall_6
+    21300456: obstacle_wall_7
+    21300458: obstacle_wall_8
+    21300460: obstacle_wall_1_destroyed
+    21300462: obstacle_wall_2_destroyed
+    21300464: obstacle_wall_3_destroyed
+    21300466: obstacle_wall_4_destroyed
+    21300468: obstacle_sandbags_5_destroyed
+    21300470: obstacle_tank_1
+    21300472: unit_spawnpoint_human
+    21300474: unit_spawnpoint_ai
+    21300476: unit-bonus-arrow
+    21300478: countdown-3
+    21300480: countdown-2
+    21300482: countdown-1
+    21300484: ui-button-minimize
+    21300486: ui-button-expand
+    21300488: projectile_bazooka_new
+    21300490: projectile_grenadelauncher_new
+    21300492: projectile_bullet_new
+    21300494: projectile_grenade_new
+    21300496: obstacle_limo_broken
+    21300498: obstacle_limo
+    21300500: obstacle_helicopter_broken
+    21300502: obstacle_helicopter
+    21300504: obstacle_armored_truck
+    21300506: obstacle_armored_truck_broken
+    21300508: obstacle_satellite_truck_broken
+    21300510: obstacle_satellite_truck
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: closecombat_cloud_0
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1686
+        width: 198
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa457c598434a8f8c3f3be11d58481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closecombat_cloud_1
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1537
+        width: 203
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6725010863040d9a0483586ae4ace2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closecombat_cloud_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1391
+        width: 191
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d28dc8bc89f488599a52ba1854e10f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closecombat_cloud_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1223
+        width: 207
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938cc54fecf2e4b59b14f59b41a78391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closecombat_cloud_4
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1047
+        width: 224
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330b8271aa88245118559c9a4793fb1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_x_0
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 835
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b553d50be92456499b8ac36b9f3491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_x_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 835
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb0734d3ccab470f9d27bb9852d039e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: target_x_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 835
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053650730c70146ff895c02e71cdbc21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medpack
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 810
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d949779b499e5437aaa4696f1fbbe666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_bullet
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 776
+        width: 7
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6774cd0ec7f43aa8d6aebc3af93050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_1
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1723
+        width: 144
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37505f68c8d494b4685df1f645c9aacb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_2
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1724
+        width: 84
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35554433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1243be3b1fae14ac9b040d918a971d72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_3
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1728
+        width: 113
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e356159428c45d6a0d24a581a041f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_4
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1644
+        width: 144
+        height: 192
+      alignment: 9
+      pivot: {x: 0.45265368, y: 0.29760042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773963fe075ee4e40b2eb14a3aad1fe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_5
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1645
+        width: 141
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5046756, y: 0.2899703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42dd59076962419889057ac9e1192f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_6
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1567
+        width: 250
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2518278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9847b6f0cbfb044828ef98c36c0356e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_7
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1472
+        width: 258
+        height: 374
+      alignment: 9
+      pivot: {x: 0.52129906, y: 0.28486812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4440954941da14078b65a8410299ba5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_1
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1600
+        width: 319
+        height: 119
+      alignment: 9
+      pivot: {x: 0.4593173, y: 0.46749237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adec5d75b8e2445fb8a0cb72d3f9fe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_2
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1564
+        width: 109
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa46cbc231284d8daf4e8a7ada39948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_3
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1448
+        width: 378
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1b1b96e0d194dc8943f2e6fb03e348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1100
+        width: 218
+        height: 130
+      alignment: 9
+      pivot: {x: 0.54734534, y: 0.5470609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c69fb39b36d5477f964e49ac1208cea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_5
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1183
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6b278f204bb434f8aa8983b3ab2e24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tires_6
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1062
+        width: 121
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5532802, y: 0.33590776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f794ddc72c974a9eaec6f2af2b8b320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_1
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1489
+        width: 496
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f220e9a6922954f04a41fe63dce57f18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1244
+        width: 244
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cf660a4ee5c4f46802801956f2feab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_3
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1268
+        width: 246
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c08089c84ad4203a903c577653b56c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_4
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1278
+        width: 271
+        height: 165
+      alignment: 9
+      pivot: {x: 0.600249, y: 0.37409002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624081b92eab244a2a2a7f7fb928e503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_5
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1276
+        width: 274
+        height: 167
+      alignment: 9
+      pivot: {x: 0.38918376, y: 0.5845604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3fdbcff25d44554ae4d0bf288dd779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_6
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1044
+        width: 414
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9374ad4d65104db8b2269ce407ec0ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_1_destroyed
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 848
+        width: 285
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb867eedf310f4b859d7f769ec8f4d1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_2_destroyed
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1100
+        width: 213
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3adfc7571cac48ecbe5ee78c4dcb9ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_3_destroyed
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 984
+        width: 231
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4509769, y: 0.68734163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476eca97469a14c669527da2ac470e95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_2_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 882
+        width: 471
+        height: 177
+      alignment: 9
+      pivot: {x: 0.6961662, y: 0.55220056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b98754a39bc436781bd50d98bc0216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_4_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 835
+        width: 465
+        height: 204
+      alignment: 9
+      pivot: {x: 0.68307316, y: 0.60432494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c8aae807a844e52ad8b070d44126cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_1_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 598
+        width: 498
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adb1aec28df34c97976b13365f3180d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_7_destroyed
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 624
+        width: 385
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5022098, y: 0.6539046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8ad1b3aa94f4df58781ab4913980e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_6_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 465
+        width: 374
+        height: 126
+      alignment: 9
+      pivot: {x: 0.49253836, y: 0.7103984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f4555cdd0474a98969ea16c30ea7b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_barrels_4_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 497
+        width: 274
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfbb258c0172414f8f92a5c25dbca1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_1
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 329
+        width: 140
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dba95f21e5b45729b9c5e3823d487a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_2
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 309
+        width: 149
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1cb059e6e2144d2aff0e758f2a59ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 320
+        width: 162
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd49a8ae69f8644fa9669cece0dba515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_4
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 189
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd916066e6e6548f98272fda6ecfb321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_5
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 189
+        width: 146
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4fb785bf449400e86b387d5a802c02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 179
+        width: 163
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f86354d28c01407e842529927dcc97e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_7
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 356
+        width: 229
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bfc7d4b6e914e319d692f244da2d7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_8
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 248
+        width: 229
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b7fdca0327a466392c5bfa646040fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_1_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 5
+        width: 177
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15818a17f0c40beaceb1daa8686d1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_2_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 10
+        width: 174
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1295f28c85bae4ff8b4c28ba773c97a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_3_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 132
+        width: 171
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e789dad708b4188aa260f1548e5749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_wall_4_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 18
+        width: 175
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3388c9ea4b5a7443cb9fa364ba0976be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_sandbags_5_destroyed
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 644
+        width: 358
+        height: 237
+      alignment: 9
+      pivot: {x: 0.41609746, y: 0.6086333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77985288cf0b4e0a9a45372c9fd9220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_tank_1
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 401
+        width: 287
+        height: 222
+      alignment: 9
+      pivot: {x: 0.4922245, y: 0.4195855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bb0a605b5ed4139a66bc5e751ebaa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: unit-bonus-arrow
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 799
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2bf1af277734e32994e9a201095d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdown-3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1728
+        width: 97
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e8163858ba94c819212c5db3d99e8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdown-2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1727
+        width: 106
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de0da57005fd4c44820be76f01fca5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countdown-1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1726
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8750bfbcb4484f4abe6aad5dfdd3edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-button-minimize
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5769626935c494587877dce51a69e952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-button-expand
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 975
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2837dc8857e344c12ad5a487aa3a6355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_bazooka_new
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 598
+        width: 101
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a909d6a3451468a84ff4bc05f3033f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_grenadelauncher_new
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 531
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ee505f07b6f4754970b4260c280a2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_bullet_new
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 483
+        width: 87
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb45f5d32c784f93afc0761596fd889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectile_grenade_new
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 525
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fb872463a5f4a218aab8400cb84798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_limo_broken
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 363
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fff44b8f2f646ccb0e89af7f6e3482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_limo
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 363
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca184141b410b44dbb586dbe3c77077b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_helicopter_broken
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 458
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7215ad928f4c408abe2349841b9511c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_helicopter
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 458
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c33d3e7fea4e7195882aebfa0f6e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_armored_truck
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 288
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b42ec4659a4275aac2da6d2aed096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_armored_truck_broken
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 221
+        width: 293
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edac8bdc3b5440debe1624db0d53d47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_satellite_truck_broken
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 345
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f3468aaac5a4c3997bce1e2c6d91a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_satellite_truck
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 0
+        width: 262
+        height: 225
+      alignment: 9
+      pivot: {x: 0.495, y: 0.465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1dd58b68d3b433494612bcbd2b0127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 54f9a33dd80604bceb7abef76985f491
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

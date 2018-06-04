@@ -1,0 +1,23 @@
+version: 2
+importPivots: 0
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Images/MG-animation.tpsheet
+- Assets/Images/unit-closecombat-sprites.tpsheet
+- Assets/Images/unit-pixel-spritesheet.tpsheet
+- Assets/Images/unit-tacticalcombat-sprites-1.tpsheet
+- Assets/Images/unit-tacticalcombat-sprites-2.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Images/MG-animation.png
+- Assets/Images/unit-closecombat-sprites.png
+- Assets/Images/unit-pixel-spritesheet.png
+- Assets/Images/unit-tacticalcombat-sprites-1.png
+- Assets/Images/unit-tacticalcombat-sprites-2.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
